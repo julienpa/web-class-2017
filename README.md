@@ -36,9 +36,10 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Différence entre GET et POST, utilisation de la bonne _method_ selon le besoin (+ DELETE / PUT)
 
 ### Ressources
+* [Basic concepts of web applications, how they work and the HTTP protocol](https://www.youtube.com/watch?v=RsQ1tFLwldY) (vidéo en anglais)
 * [WebSockets | MDN](https://developer.mozilla.org/fr/docs/WebSockets)
 * Architecture 3 tiers
-[image:4319E262-2553-4902-9F51-AB0F62EA1B05-7673-00002F2E0F5663C7/1-web-design-concepts-web-frontend-37-728.jpg]
+![frontend-backend](https://image.slidesharecdn.com/1-webdesignconcepts-120708014736-phpapp02/95/1-web-design-concepts-web-frontend-37-728.jpg)
 
 # Conception, développement et maintenance d’une application
 ## Environnement de développement
