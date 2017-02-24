@@ -67,9 +67,9 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 
 ## Frameworks, API et architectures
 * Comprendre le principe d’une architecture *MVC* et ses limitations
-* Installer et configurer un framework MVC ( [CodeIgniter](https://www.codeigniter.com/) )
-* Utiliser un micro-framework ( [Lumen](https://lumen.laravel.com/) )
-* Installer et configurer un CMS ( [WordPress](https://fr.wordpress.org/) )
+* Installer et configurer un framework MVC ([CodeIgniter](https://www.codeigniter.com/))
+* Utiliser un micro-framework ([Lumen](https://lumen.laravel.com/))
+* Installer et configurer un CMS ([WordPress](https://fr.wordpress.org/))
 * Concevoir une API REST
 * Comprendre la différence entre REST et RPC
 
@@ -85,13 +85,13 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 
 ### Ressources
 * [MySQL LIMIT](http://www.mysqltutorial.org/mysql-limit.aspx) (anglais)
-* [MySQL Joins](https://www.techonthenet.com/mysql/joins.php)
+* [MySQL Joins](https://www.techonthenet.com/mysql/joins.php) (anglais)
 * [What is the difference between "INNER JOIN" and "OUTER JOIN"?](http://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join) (anglais)
  
 ## Sécurité et qualité (tests)
 ### Ressources
 * Tests : [PHPUnit](https://phpunit.de/) (anglais)
-* [PHP Master | 8 Practices to Secure Your Web App](https://www.sitepoint.com/8-practices-to-secure-your-web-app/) (anglais)
+* [8 Practices to Secure Your Web App](https://www.sitepoint.com/8-practices-to-secure-your-web-app/) (anglais)
 
 # Outils, déploiement et alternatives
 ## Utilisation d’un gestionnaire de source
