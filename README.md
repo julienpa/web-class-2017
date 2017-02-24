@@ -1,14 +1,13 @@
-# web-class
+# Programmation web – serveur
 Index de connaissances pour le cours de programmation serveur – l'IUT de Paris Descartes – début 2017
 
 # Bases de l’architecture et du développement en client-serveur
-
 ## Vocabulaire
 * **Frontend** = client
 * **Backend** = serveur
 * Le client peut être une app desktop, app mobile, webapp, site internet...
 * Le serveur peut être une machine hébergée dans un datacenter, ou n'importe quel ordinateur accessible depuis internet
-* En développement, le client et le serveur peuvent être sur la même machine, mais 
+* En développement, le client et le serveur peuvent être sur la même machine
 * Anciens termes : front-office / back-office (plutôt liés à la notion de métiers, ou aux types d'utilisateurs)
   * Ne pas confondre avec les notions de `front = utilisateur final` et `back = administrateur`
   * Ici, nous parlons de _frontend_ et _backend_ **development**
@@ -22,16 +21,26 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * P2P (système de communication et échange de données de client à client)
 * **2 niveaux, 3 niveaux, N niveaux**
 * SOA et microservices
-* Serverless
+* Serverless (type FaaS)
 
 ### Ressources
 * [Microservices](https://martinfowler.com/articles/microservices.html) (anglais)
 * [Serverless](https://martinfowler.com/articles/serverless.html) (anglais)
 
 ## Communication client-serveur
+* Protocoles : HTTP, FTP, SMTP (+ WS)
+* Compréhension du processus de **requête** (client) -> **réponse** (serveur)
+* Connaître les différents modes de requête et le rôle de chaque partie : synchrone, asynchrone, push / temps réel
+* Comprendre les notions de DNS (Domain Name System), cache, CDN (Content Delivery Network)
+* Formats de données pour les échanges : HTML, JSON, XML
+* Différence entre GET et POST, utilisation de la bonne _method_ selon le besoin (+ DELETE / PUT)
 
-# Conception, développement et maintenance d'une application
+### Ressources
+* [WebSockets | MDN](https://developer.mozilla.org/fr/docs/WebSockets)
+* Architecture 3 tiers
+[image:4319E262-2553-4902-9F51-AB0F62EA1B05-7673-00002F2E0F5663C7/1-web-design-concepts-web-frontend-37-728.jpg]
 
+# Conception, développement et maintenance d’une application
 ## Environnement de développement
 * Installation et configuration d'un bundle pour Windows : [EasyPHP](http://www.easyphp.org/)
 * Connaissance des outils individuels :
@@ -39,16 +48,62 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
   * Alternatives : Nginx, MariaDB, PostgreSQL
   * phpMyAdmin, outils de développement de Chrome ou Firefox
 
+## Création de pages web avec navigation
+* Conception d’interfaces web en HTML et CSS
+* Création de liens dynamiques entre pages HTML 
+* Gestion des requêtes et URLs avec un serveur web  (Apache)
+
 ## Langage PHP
-* Superglobales : $\_GET, $\_POST, $\_SERVER, $\_SESSION, $\_FILES
-* Différence entre GET et POST, utilisation de la bonne _method_ selon le besoin
-* 
+* Connaître les différences basiques entre les versions de PHP, et savoir quelle version utiliser en priorité : 5.x / 7.x
+* Connaître les bases du langage : conditions `if` / `elseif` / `else` / `switch`, boucles `foreach` / `for` / `while`, structures de données  `array()` / `[]` 
+* Utiliser la syntaxe orientée vue (HTML) : `if ():` … `endif;`
+* Superglobales : `$_GET`, `$_POST`, `$_SERVER`, `$_SESSION`, `$_FILES`
+* Utiliser des fonctions standards :  `include()` et `require()` (+ `_once`), `isset()` / `empty()`, `intval()`, `date()`, `is_string()`, `array_push()`, `die()` / `exit()` …
+* Compréhension 
+* Transformation de données avec `json_encode()` / `json_decode()` et manipulation de fichiers avec `file_put_contents()` et `file_get_contents()`
+* Créer une class et manipuler des objets
+* Savoir chercher et utiliser la documentation
+
+## Frameworks, API et architectures
+* Comprendre le principe d’une architecture *MVC* et ses limitations
+* Installer et configurer un framework MVC ( [CodeIgniter](https://www.codeigniter.com/) )
+* Utiliser un micro-framework ( [Lumen](https://lumen.laravel.com/) )
+* Installer et configurer un CMS ( [WordPress](https://fr.wordpress.org/) )
+* Concevoir une API REST
+* Comprendre la différence entre REST et RPC
+
+### Ressources
+* [MVC architecture](https://developer.mozilla.org/fr/Apps/Build/Architecture_d_une_application_web_moderne/MVC_architecture)
+* [A comparison of REST and RPC](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/) (anglais)
 
 ## Écriture de requêtes pour MySQL
+* *SELECT*, *INSERT*, *UPDATE*, *DELETE* / *LIMIT*
+* Utilisation des jointures : LEFT JOIN, INNER JOIN
+* Connexion à une base de donnée (MySQL) 
+* Passer des paramètres PHP
 
+### Ressources
+* [MySQL LIMIT](http://www.mysqltutorial.org/mysql-limit.aspx) (anglais)
+* [MySQL Joins](https://www.techonthenet.com/mysql/joins.php)
+* [What is the difference between "INNER JOIN" and "OUTER JOIN"?](http://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join) (anglais)
+ 
 ## Sécurité et qualité (tests)
-## Évolution ou refonte de notre application avec des outils avancés (fwk, CMS)
-## Conception d’une API pour clients et web-services (architecture REST)
-## Outils de développement: utilisation d’un gestionnaire de source (Git)
-## Déploiement d’une application en ligne : solutions, outils, optimisations
-## Étude d’autres solutions techniques : langages, database, serverless…
+### Ressources
+* Tests : [PHPUnit](https://phpunit.de/) (anglais)
+* [PHP Master | 8 Practices to Secure Your Web App](https://www.sitepoint.com/8-practices-to-secure-your-web-app/) (anglais)
+
+# Outils, déploiement et alternatives
+## Utilisation d’un gestionnaire de source
+* Savoir utiliser Git et un repository en ligne
+* Comprendre le fonctionnement d’un gestionnaire de sources
+* Connaître les alternatives et leurs avantages/inconvénients
+
+## Déploiement d’une application en ligne 
+* *Déployer le plus tôt possible*
+* Solutions, outils, optimisations <- à compléter
+
+## Étude d’autres solutions techniques
+* Connaître d’autres langages et leurs différences majeures : Ruby / RoR, Python / Django / Flask, Javascript / Node. Autres technologies à la mode : Go, Scala, Elixir
+* Database : NoSQL
+* API : GraphQL
+* Serverless : Backend as a Service, hosted database and services…etc.
