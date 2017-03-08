@@ -1,4 +1,5 @@
 # Programmation web – serveur
+
 Index de connaissances pour le cours de programmation serveur – l'IUT de Paris Descartes – début 2017
 
 # Bases de l’architecture et du développement en client-serveur
@@ -28,11 +29,12 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * [Serverless](https://martinfowler.com/articles/serverless.html) (anglais)
 
 ## Communication client-serveur
+* Différence entre client **lourd**, client **léger**, client **riche**
 * Protocoles : HTTP, FTP, SMTP (+ WS)
 * Compréhension du processus de **requête** (client) -> **réponse** (serveur)
 * Connaître les différents modes de requête et le rôle de chaque partie : synchrone, asynchrone, push / temps réel
 * Comprendre les notions de DNS (Domain Name System), cache, CDN (Content Delivery Network)
-* Formats de données pour les échanges : HTML, JSON, XML
+* Formats de données pour les échanges : **HTML, JSON**, XML
 * Différence entre GET et POST, utilisation de la bonne _method_ selon le besoin (+ DELETE / PUT)
 
 ### Ressources
@@ -65,6 +67,10 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Créer une class et manipuler des objets
 * Savoir chercher et utiliser la documentation
 
+### Ressources
+* [Awesome PHP](https://github.com/ziadoz/awesome-php)
+* [PHP: The Right Way](http://www.phptherightway.com/) (anglais)
+
 ## Frameworks, API et architectures
 * Comprendre le principe d’une architecture *MVC* et ses limitations
 * Installer et configurer un framework MVC ([CodeIgniter](https://www.codeigniter.com/))
@@ -78,6 +84,7 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * [A comparison of REST and RPC](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/) (anglais)
 
 ## Écriture de requêtes pour MySQL
+* Différence entre les principaux moteurs de stockage : MyISAM et InnoDB
 * *SELECT*, *INSERT*, *UPDATE*, *DELETE* / *LIMIT*
 * Utilisation des jointures : LEFT JOIN, INNER JOIN
 * Connexion à une base de donnée (MySQL) 
@@ -100,11 +107,14 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Connaître les alternatives et leurs avantages/inconvénients
 
 ## Déploiement d’une application en ligne 
-* *Déployer le plus tôt possible*
-* Solutions, outils, optimisations <- à compléter
+* Importance de *déployer le plus tôt possible* (anticiper les difficultés, réorienter les choix d’outils et d’architecture…)
+* Solutions, outils, optimisations
+	* Plateformes : [Heroku](https://devcenter.heroku.com/start), [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+	* Outils : [Deployer](https://deployer.org/), [Docker](https://www.docker.com/what-docker)
+	* Utiliser une configuration de "production" (vs. "development") : activation du cache, désactivation des erreurs…
 
 ## Étude d’autres solutions techniques
 * Connaître d’autres langages et leurs différences majeures : Ruby / RoR, Python / Django / Flask, Javascript / Node. Autres technologies à la mode : Go, Scala, Elixir
-* Database : NoSQL
-* API : GraphQL
+* Database : NoSQL ([documents](https://www.mongodb.com/what-is-mongodb), [graphes](http://orientdb.com/orientdb/), [key-value](https://redis.io/)…)
+* API : [GraphQL](http://graphql.org/)
 * Serverless : Backend as a Service, hosted database and services…etc.
