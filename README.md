@@ -95,6 +95,14 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * [What is the difference between "INNER JOIN" and "OUTER JOIN"?](http://stackoverflow.com/questions/38549/what-is-the-difference-between-inner-join-and-outer-join) (anglais)
  
 ## Sécurité et qualité (tests)
+* Sensibilisation aux problématiques courantes
+  * **Validation des données saisies par l'utilisateur**
+  * **Injections SQL**
+  * Attaques XSS et CSRF
+  * Prévention de l'accès direct aux dossiers et fichiers de l'application, protection des données de session, gestion de l'affichage des erreurs...
+
+* Introduction aux tests avec PHPUnit (<- non réalisé en cours)
+
 ### Ressources
 * Tests : [PHPUnit](https://phpunit.de/) (anglais)
 * [8 Practices to Secure Your Web App](https://www.sitepoint.com/8-practices-to-secure-your-web-app/) (anglais)
@@ -110,7 +118,7 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Solutions, outils, optimisations
 	* Plateformes : [Heroku](https://devcenter.heroku.com/start), [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 	* Outils : [Deployer](https://deployer.org/), [Docker](https://www.docker.com/what-docker)
-	* Utiliser une configuration de "production" (vs. "development") : activation du cache, désactivation des erreurs…
+	* Utiliser une configuration de "production" (vs. "development") : activation du cache, désactivation de l'affichage des erreurs…
 
 ## Étude d’autres solutions techniques
 * Connaître d’autres langages et leurs différences majeures : Ruby / RoR, Python / Django / Flask, Javascript / Node. Autres technologies à la mode : Go, Scala, Elixir
