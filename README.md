@@ -96,7 +96,7 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
  
 ## Sécurité et qualité (tests)
 * Sensibilisation aux problématiques courantes
-  * **Validation des données saisies par l'utilisateur**
+  * **Validation des données saisies par l'utilisateur**
   * **Injections SQL**
   * Attaques XSS et CSRF
   * Prévention de l'accès direct aux dossiers et fichiers de l'application, protection des données de session, gestion de l'affichage des erreurs...
