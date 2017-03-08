@@ -34,7 +34,7 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Compréhension du processus de **requête** (client) -> **réponse** (serveur)
 * Connaître les différents modes de requête et le rôle de chaque partie : synchrone, asynchrone, push / temps réel
 * Comprendre les notions de DNS (Domain Name System), cache, CDN (Content Delivery Network)
-* Formats de données pour les échanges : **HTML, JSON**, XML
+* Formats de données pour les échanges : **HTML**, **JSON**, XML
 * Différence entre GET et POST, utilisation de la bonne _method_ selon le besoin (+ DELETE / PUT)
 
 ### Ressources
@@ -62,7 +62,6 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * Utiliser la syntaxe orientée vue (HTML) : `if ():` … `endif;`
 * Superglobales : `$_GET`, `$_POST`, `$_SERVER`, `$_SESSION`, `$_FILES`
 * Utiliser des fonctions standards :  `include()` et `require()` (+ `_once`), `isset()` / `empty()`, `intval()`, `date()`, `is_string()`, `array_push()`, `die()` / `exit()` …
-* Compréhension 
 * Transformation de données avec `json_encode()` / `json_decode()` et manipulation de fichiers avec `file_put_contents()` et `file_get_contents()`
 * Créer une class et manipuler des objets
 * Savoir chercher et utiliser la documentation
@@ -72,11 +71,11 @@ Index de connaissances pour le cours de programmation serveur – l'IUT de Paris
 * [PHP: The Right Way](http://www.phptherightway.com/) (anglais)
 
 ## Frameworks, API et architectures
-* Comprendre le principe d’une architecture *MVC* et ses limitations
+* Comprendre le principe d’une architecture *MVC*, ses avantages et limitations
 * Installer et configurer un framework MVC ([CodeIgniter](https://www.codeigniter.com/))
 * Utiliser un micro-framework ([Lumen](https://lumen.laravel.com/))
 * Installer et configurer un CMS ([WordPress](https://fr.wordpress.org/))
-* Concevoir une API REST
+* Concevoir une API
 * Comprendre la différence entre REST et RPC
 
 ### Ressources
