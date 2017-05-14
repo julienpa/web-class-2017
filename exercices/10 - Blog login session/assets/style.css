@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer {
+  border-top: 2px solid grey;
+}
+
+footer p {
+  text-align: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+
+  border-top: 1px dashed grey;
+  padding: 10px 20px;
+}
+
+article .left {
+  margin-right: 15px;
+}
+
+article img {
+  width: 100px;
+  height: 100px;
+}
+
+article h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+article .date {
+  color: grey;
+}
+
+.comments {
+  padding: 10px;
+}
+
+.comments form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login h1 {
+  text-align: center;
+}
+
+.login input {
+  display: block;
+  margin-bottom: 10px;
+}

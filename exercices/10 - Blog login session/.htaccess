@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    Options +FollowSymlinks
+
+    # RewriteBase /
+
+    RewriteRule ^article/([0-9]+)/?$ article.php?id=$1
+    RewriteRule ^login$ login.php
+    RewriteRule ^logout$ logout.php
+    RewriteRule ^index$ index.php
+
+</IfModule>

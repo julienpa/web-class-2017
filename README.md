@@ -2,6 +2,8 @@
 
 Index de connaissances pour le cours de programmation serveur – l'IUT de Paris Descartes – début 2017
 
+Liste et contenu des exercices disponible dans le dossier [exercices](exercices/)
+
 # Bases de l’architecture et du développement en client-serveur
 ## Vocabulaire
 * **Frontend** = client

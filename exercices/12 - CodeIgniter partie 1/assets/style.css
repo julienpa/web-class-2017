@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.login-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 800px;
+  margin: 20px auto;
+}
+
+.login-header p {
+  margin-right: 10px;
+}
+
+.login-header a {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid grey;
+  color: grey;
+  text-decoration: none;
+}
+
+.main {
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.pagination,
+footer {
+  border-top: 2px solid grey;
+}
+
+footer p {
+  text-align: center;
+}
+
+article {
+  display: flex;
+
+  border-top: 1px dashed grey;
+  padding: 10px 20px;
+}
+
+article .left {
+  margin-right: 15px;
+}
+
+article img {
+  width: 100px;
+  height: 100px;
+}
+
+article h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+article .date {
+  color: grey;
+}
+
+.comments {
+  padding: 10px;
+}
+
+.comments form > * {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login h1 {
+  text-align: center;
+}
+
+.login input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.pagination {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.pagination a {
+  margin: 0 5px;
+}
